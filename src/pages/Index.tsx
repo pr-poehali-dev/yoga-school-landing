@@ -37,11 +37,11 @@ const YogaLanding = () => {
       <header className="sticky top-0 z-50 backdrop-blur-sm bg-white/80 border-b">
         <div className="container mx-auto flex justify-between items-center p-4">
           <div className="flex items-center gap-2">
-            <Icon name="Lotus" className="h-8 w-8 text-[#9b87f5]" />
+            <Icon name="Lotus" className="h-8 w-8 text-[#6b4226]" />
             <span className="font-montserrat text-xl font-bold">Гармония</span>
           </div>
           <nav className="hidden md:flex gap-8">
-            <a href="#about" className="hover:text-[#9b87f5] transition-colors">
+            <a href="#about" className="hover:text-[#6b4226] transition-colors">
               О школе
             </a>
             <a
@@ -63,7 +63,7 @@ const YogaLanding = () => {
               Отзывы
             </a>
           </nav>
-          <Button className="bg-[#9b87f5] hover:bg-[#8a76e4]">
+          <Button className="bg-[#6b4226] hover:bg-[#855535]">
             <a href="#contact">Записаться</a>
           </Button>
         </div>
@@ -82,7 +82,7 @@ const YogaLanding = () => {
               достичь гармонии тела и разума
             </p>
             <div className="flex gap-4">
-              <Button size="lg" className="bg-[#9b87f5] hover:bg-[#8a76e4]">
+              <Button size="lg" className="bg-[#6b4226] hover:bg-[#855535]">
                 <a href="#programs">Наши программы</a>
               </Button>
               <Button
@@ -104,7 +104,7 @@ const YogaLanding = () => {
             <h2 className="font-montserrat text-3xl md:text-4xl font-bold mb-4">
               О нашей школе
             </h2>
-            <div className="w-20 h-1 bg-[#9b87f5] mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#6b4226] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-600">
               "Гармония" - это пространство, где мы объединяем тысячелетние
               традиции йоги с современными методиками, чтобы помочь вам найти
@@ -115,7 +115,7 @@ const YogaLanding = () => {
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center p-6 hover-scale transition-all">
               <div className="bg-[#F2FCE2] rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Icon name="Heart" className="h-8 w-8 text-[#9b87f5]" />
+                <Icon name="Heart" className="h-8 w-8 text-[#6b4226]" />
               </div>
               <h3 className="font-montserrat text-xl font-semibold mb-3">
                 Наша миссия
@@ -128,7 +128,7 @@ const YogaLanding = () => {
 
             <div className="text-center p-6 hover-scale transition-all">
               <div className="bg-[#FEF7CD] rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Icon name="Star" className="h-8 w-8 text-[#9b87f5]" />
+                <Icon name="Star" className="h-8 w-8 text-[#6b4226]" />
               </div>
               <h3 className="font-montserrat text-xl font-semibold mb-3">
                 Наш подход
@@ -141,7 +141,7 @@ const YogaLanding = () => {
 
             <div className="text-center p-6 hover-scale transition-all">
               <div className="bg-[#E5DEFF] rounded-full p-4 w-16 h-16 flex items-center justify-center mx-auto mb-4">
-                <Icon name="Medal" className="h-8 w-8 text-[#9b87f5]" />
+                <Icon name="Medal" className="h-8 w-8 text-[#6b4226]" />
               </div>
               <h3 className="font-montserrat text-xl font-semibold mb-3">
                 Наши ценности
@@ -162,7 +162,7 @@ const YogaLanding = () => {
             <h2 className="font-montserrat text-3xl md:text-4xl font-bold mb-4">
               Наши преподаватели
             </h2>
-            <div className="w-20 h-1 bg-[#9b87f5] mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#6b4226] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-600">
               Обучение проводят сертифицированные преподаватели с многолетним
               опытом практики и преподавания.
@@ -269,7 +269,7 @@ const YogaLanding = () => {
             <h2 className="font-montserrat text-3xl md:text-4xl font-bold mb-4">
               Наши программы
             </h2>
-            <div className="w-20 h-1 bg-[#9b87f5] mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#6b4226] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-600">
               Мы предлагаем разнообразные направления йоги для любого уровня
               подготовки и целей.
@@ -309,7 +309,7 @@ const YogaLanding = () => {
                 <p className="font-semibold text-lg">от 3 500 ₽/месяц</p>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-[#9b87f5] hover:bg-[#8a76e4]">
+                <Button className="w-full bg-[#6b4226] hover:bg-[#855535]">
                   <a href="#contact">Записаться</a>
                 </Button>
               </CardFooter>
@@ -347,7 +347,7 @@ const YogaLanding = () => {
                 <p className="font-semibold text-lg">от 4 500 ₽/месяц</p>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-[#9b87f5] hover:bg-[#8a76e4]">
+                <Button className="w-full bg-[#6b4226] hover:bg-[#855535]">
                   <a href="#contact">Записаться</a>
                 </Button>
               </CardFooter>
@@ -385,7 +385,7 @@ const YogaLanding = () => {
                 <p className="font-semibold text-lg">от 5 000 ₽/месяц</p>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-[#9b87f5] hover:bg-[#8a76e4]">
+                <Button className="w-full bg-[#6b4226] hover:bg-[#855535]">
                   <a href="#contact">Записаться</a>
                 </Button>
               </CardFooter>
@@ -423,7 +423,7 @@ const YogaLanding = () => {
                 <p className="font-semibold text-lg">от 2 500 ₽/занятие</p>
               </CardContent>
               <CardFooter>
-                <Button className="w-full bg-[#9b87f5] hover:bg-[#8a76e4]">
+                <Button className="w-full bg-[#6b4226] hover:bg-[#855535]">
                   <a href="#contact">Записаться</a>
                 </Button>
               </CardFooter>
@@ -439,7 +439,7 @@ const YogaLanding = () => {
             <h2 className="font-montserrat text-3xl md:text-4xl font-bold mb-4">
               Отзывы о нас
             </h2>
-            <div className="w-20 h-1 bg-[#9b87f5] mx-auto mb-8"></div>
+            <div className="w-20 h-1 bg-[#6b4226] mx-auto mb-8"></div>
             <p className="max-w-3xl mx-auto text-lg text-gray-600">
               Узнайте, что говорят о нашей школе наши ученики.
             </p>
@@ -450,7 +450,7 @@ const YogaLanding = () => {
               <CarouselItem>
                 <div className="p-6">
                   <div className="bg-white rounded-lg p-8 shadow-sm relative">
-                    <div className="text-[#9b87f5] absolute -top-4 left-8 text-6xl">
+                    <div className="text-[#6b4226] absolute -top-4 left-8 text-6xl">
                       "
                     </div>
                     <p className="italic text-gray-600 mb-6 relative z-10">
@@ -479,7 +479,7 @@ const YogaLanding = () => {
               <CarouselItem>
                 <div className="p-6">
                   <div className="bg-white rounded-lg p-8 shadow-sm relative">
-                    <div className="text-[#9b87f5] absolute -top-4 left-8 text-6xl">
+                    <div className="text-[#6b4226] absolute -top-4 left-8 text-6xl">
                       "
                     </div>
                     <p className="italic text-gray-600 mb-6 relative z-10">
@@ -508,7 +508,7 @@ const YogaLanding = () => {
               <CarouselItem>
                 <div className="p-6">
                   <div className="bg-white rounded-lg p-8 shadow-sm relative">
-                    <div className="text-[#9b87f5] absolute -top-4 left-8 text-6xl">
+                    <div className="text-[#6b4226] absolute -top-4 left-8 text-6xl">
                       "
                     </div>
                     <p className="italic text-gray-600 mb-6 relative z-10">
@@ -622,7 +622,7 @@ const YogaLanding = () => {
                 />
                 <label htmlFor="agreement" className="text-sm text-gray-600">
                   Я согласен на обработку персональных данных и принимаю
-                  <a href="#" className="text-[#9b87f5] hover:underline">
+                  <a href="#" className="text-[#6b4226] hover:underline">
                     {" "}
                     условия соглашения
                   </a>
@@ -631,7 +631,7 @@ const YogaLanding = () => {
 
               <Button
                 type="submit"
-                className="w-full bg-[#9b87f5] hover:bg-[#8a76e4]"
+                className="w-full bg-[#6b4226] hover:bg-[#855535]"
                 size="lg"
               >
                 Записаться на бесплатное занятие
@@ -736,7 +736,7 @@ const YogaLanding = () => {
                 </li>
                 <li>
                   <a href="#" className="text-gray-400 hover:text-[#6b4226]">
-                    Кундалини-йoga
+                    Кундалини-йога
                   </a>
                 </li>
                 <li>
